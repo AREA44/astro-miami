@@ -4,9 +4,12 @@ import Footer from "../components/Footer.astro";
 import Img from "../components/Img.astro";
 
 let title = 'Astro Miami';
+let description = 'Minimalistic photography site with masonry grid';
+let url = 'https://astro-miami.netlify.app';
+let image = 'https://astro-miami.netlify.app/banner.jpg';
 ---
 
-<BaseLayout title={title}>
+<BaseLayout title={title} description={description} url={url} image={image}>
 	<img class="rounded-full w-32 object-cover opacity-100" alt="avartar" src="avatar.png">
 	<h1 class="text-white text-4xl font-bold my-2 mb-1">Astro Miami</h1>
 	<p class="text-slate-400 mb-8">Masonry image lists use dynamically sized container heights that reflect the aspect ratio of each image. This image list is best used for browsing uncropped peer content.</p>

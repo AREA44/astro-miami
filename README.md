@@ -12,12 +12,12 @@ Minimalistic photography site with masonry grid. Built with Astro and TailwindCS
 - Masonry grid
 - MDX [*WIP*]
 - Optimize image [*WIP*]
-- SEO (Sitemap, OpenGraph tags, Twitter tags) [*WIP*]
+- SEO (Sitemap, OpenGraph tags, Twitter tags)
 - WebApp Manifest [*WIP*]
 
 ## Installation
 
-```
+```sh
 pnpm i
 pnpm dev
 ```
