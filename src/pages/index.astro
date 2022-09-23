@@ -1,23 +1,30 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Image from "../components/Image.astro";
+import Footer from "../components/Footer.astro";
+import Img from "../components/Img.astro";
 
 let title = 'Astro Miami';
 ---
 
 <BaseLayout title={title}>
+	<img class="rounded-full w-32 object-cover opacity-100" alt="avartar" src="avatar.png">
+	<h1 class="text-white text-4xl font-bold my-2 mb-1">Astro Miami</h1>
+	<p class="text-slate-400 mb-8">Masonry image lists use dynamically sized container heights that reflect the aspect ratio of each image. This image list is best used for browsing uncropped peer content.</p>
+	
 	<div class="columns-2 md:columns-3 lg:columns-4">
-		<Image image="https://source.unsplash.com/random/1" />
-		<Image image="https://source.unsplash.com/random/2" />
-		<Image image="https://source.unsplash.com/random/3" />
-		<Image image="https://source.unsplash.com/random/4" />
-		<Image image="https://source.unsplash.com/random/5" />
-		<Image image="https://source.unsplash.com/random/6" />
-		<Image image="https://source.unsplash.com/random/7" />
-		<Image image="https://source.unsplash.com/random/8" />
-		<Image image="https://source.unsplash.com/random/9" />
-		<Image image="https://source.unsplash.com/random/10" />
-		<Image image="https://source.unsplash.com/random/11" />
-		<Image image="https://source.unsplash.com/random/12" />
+		<Img src="https://source.unsplash.com/random/1" />
+		<Img src="https://source.unsplash.com/random/2" />
+		<Img src="https://source.unsplash.com/random/3" />
+		<Img src="https://source.unsplash.com/random/4" />
+		<Img src="https://source.unsplash.com/random/5" />
+		<Img src="https://source.unsplash.com/random/6" />
+		<Img src="https://source.unsplash.com/random/7" />
+		<Img src="https://source.unsplash.com/random/8" />
+		<Img src="https://source.unsplash.com/random/9" />
+		<Img src="https://source.unsplash.com/random/10" />
+		<Img src="https://source.unsplash.com/random/11" />
+		<Img src="https://source.unsplash.com/random/12" />
 	</div>
+
+	<Footer />
 </BaseLayout>
