@@ -1,0 +1,22 @@
+---
+import Gallary from "../layouts/Gallary.astro";
+import Footer from "../components/Footer.astro";
+
+export async function getStaticPaths() {
+  let projects = await Astro.glob(`../projects/**/index.mdx`);
+  return projects.map((project) => ({
+    params: { slug: project.frontmatter.slug },
+    props: { project: project },
+  }));
+}
+
+const { project } = Astro.props;
+const {
+  frontmatter: { title, description, slug, date, image },
+} = project;
+
+---
+<h1>{title}</h1>
+<p>{description}</p>
+<p>{date}</p>
+<img src=`${slug}/${image}` />

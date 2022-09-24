@@ -1,14 +1,13 @@
 ---
 import SEO from "../components/SEO.astro";
 
-const { title, description, url, image } = Astro.props;
+const {content: {title, description, image} } = Astro.props;
 ---
 
 <html lang="en">
 	<SEO 
 		title={title}
 		description={description}
-		url={url}
 		image={image}
 	/>
 
