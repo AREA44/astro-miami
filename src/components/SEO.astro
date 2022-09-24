@@ -1,5 +1,5 @@
 ---
-const {title, description, image='banner.jpg'} = Astro.props;
+const {title, description, banner='banner.jpg'} = Astro.props;
 ---
 
 <head>
@@ -19,11 +19,11 @@ const {title, description, image='banner.jpg'} = Astro.props;
   <meta property="og:url" content={Astro.url}>
   <meta property="og:title" content={title}>
   <meta property="og:description" content={description}>
-  <meta property="og:image" content={new URL(image, Astro.url)}>
+  <meta property="og:image" content={new URL(banner, Astro.url)}>
 
   <!-- Twitter -->
   <meta name="twitter:url" content={Astro.url}>
   <meta name="twitter:title" content={title}>
   <meta name="twitter:description" content={description}>
-  <meta name="twitter:image" content={new URL(image, Astro.url)}>
+  <meta name="twitter:image" content={new URL(banner, Astro.url)}>
 </head>
