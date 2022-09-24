@@ -8,12 +8,11 @@ Minimalistic photography site with masonry grid. Built with Astro and TailwindCS
 
 ## Features
 
+- MDX
 - TailwindCSS
 - Masonry grid
-- MDX [*WIP*]
 - Optimize image [*WIP*]
 - SEO (Sitemap, OpenGraph tags, Twitter tags)
-- WebApp Manifest [*WIP*]
 
 ## Installation
 
