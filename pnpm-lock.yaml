@@ -4,7 +4,7 @@ specifiers:
   '@astrojs/mdx': 0.11.3
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 2.0.2
-  astro: 1.4.0
+  astro: 1.4.2
   autoprefixer: 10.4.12
   canvas-confetti: 1.5.1
   postcss: 8.4.17
@@ -14,7 +14,7 @@ dependencies:
   '@astrojs/mdx': 0.11.3_rollup@2.78.1
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 2.0.2_tailwindcss@3.1.8
-  astro: 1.4.0
+  astro: 1.4.2
   autoprefixer: 10.4.12_postcss@8.4.17
   canvas-confetti: 1.5.1
   postcss: 8.4.17
@@ -821,8 +821,8 @@ packages:
     hasBin: true
     dev: false
 
-  /astro/1.4.0:
-    resolution: {integrity: sha512-MjBQsMS1ySrV0Q2rCcZ75D2zfJlOjv12SEBpH1XIbqe3QRVD5mqj+TiPlBXGQYnggo3+yEDOSUtWK0QsK/2XNA==}
+  /astro/1.4.2:
+    resolution: {integrity: sha512-v6GxDQoy8edDEJHopPeQg3TY9ghiJhx/n5mWpXdczPIvft3av6GhDn9yNnEKn6u0vHG9eX0sQxNCwXDlZMExAw==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
